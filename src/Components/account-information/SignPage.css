@@ -1,0 +1,157 @@
+#d-sign {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  width: 635px;
+  border-radius: 10px;
+  margin-left: 365px;
+  margin-top: 170px;
+  border: 1px solid #393232;
+  box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445);
+}
+
+/* #contact:hover {
+  border: 1px solid #ff1414;
+  box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445);
+} */
+
+#d-sign h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+#d-sign form {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+#d-sign form .same-input {
+  width: 80%;
+  height: 50px;
+  margin: 5px 0px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #ffffff2d;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#d-sign form .same-input[type="submit"] {
+  height: 45px;
+  background: linear-gradient(90deg, #ff1414 20%, #f70000);
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* input[type=checkbox] {
+  width: 18px;
+  margin-left: -518px;
+  position: absolute;
+  margin-top: 66px;
+} */
+
+.p-sign-remember {
+  width: 109px;
+  color: white;
+  margin-top: 100px;
+  position: absolute;
+  margin-left: -285px;
+}
+
+.p-sign-forget-password a {
+  color: red;
+  border-bottom: 1px solid;
+  margin-left: 345px;
+}
+
+.dont-sign-account {
+  position: absolute;
+  color: white;
+  margin-top: 298px;
+  margin-left: -104px;
+}
+
+.link-sign-login a {
+  position: absolute;
+  color: red;
+  border-bottom: 1px solid;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+
+.input-first-name {
+  width: 235px;
+  margin-left: -245px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #ffffff2d;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.input-last-name {
+  position: absolute;
+  margin-top: -264px;
+  margin-left: 242px;
+  width: 235px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #ffffff2d;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* ************** */
+
+#contact-sign {
+  width: 100%;
+  height: 768px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/banner.png");
+  position: relative;
+  z-index: 0;
+  /* margin-top: -200px; */
+}
+#contact-sign::before {
+  position: absolute;
+  content: "";
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(181, 8, 8, 0.38) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(181, 8, 8, 0.38) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(181, 8, 8, 0.38) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61b50808', endColorstr='#99000000',GradientType=1 );
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

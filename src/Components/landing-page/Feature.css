@@ -1,0 +1,149 @@
+.a-container {
+  display: flex;
+}
+
+.title-text {
+  color: white;
+  margin-left: 540px;
+  font-size: 47px;
+  margin-top: 200px;
+}
+
+.a1-box {
+  width: 280px;
+  height: 405px;
+  margin-left: 38px;
+  border-radius: 10px;
+  margin-top: 60px;
+  /* border: 1px solid #ff1414;
+  box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445); */
+}
+
+.a1-box:hover {
+  border: 1px solid #ff1414;
+  box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445);
+}
+
+.b1-img {
+  margin-left: 91px;
+  margin-top: 50px;
+}
+
+.b1-text {
+  color: white;
+  margin-left: 36px;
+  margin-top: 120px;
+}
+
+.text-1 {
+  color: gray;
+  margin-left: 59px;
+  font-family: sans-serif;
+  margin-top: -3px;
+}
+
+/* ************** */
+
+.a2-box {
+  width: 284px;
+  height: 405px;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 60px;
+  /* border: 1px solid #ff1414;
+  box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445); */
+}
+
+.a2-box:hover {
+  border: 1px solid #ff1414;
+  box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445);
+}
+
+.b2-img {
+  margin-left: 97px;
+  margin-top: 50px;
+}
+
+.b2-text {
+  color: white;
+  margin-left: 21px;
+  margin-top: 120px;
+  width: 251px;
+}
+
+.text-2 {
+  color: gray;
+  margin-left: 61px;
+  font-family: sans-serif;
+  margin-top: -3px;
+}
+/* ************** */
+
+.a3-box {
+  width: 288px;
+  height: 405px;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 60px;
+  /* border: 1px solid #ff1414;
+  box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445); */
+}
+
+.a3-box:hover {
+  border: 1px solid #ff1414;
+  box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445);
+}
+
+.b3-img {
+  margin-left: 101px;
+  margin-top: 50px;
+}
+
+.b3-text {
+  color: white;
+  margin-left: 15px;
+  margin-top: 120px;
+  width: 270px;
+}
+
+.text-3 {
+  color: gray;
+  margin-left: 69px;
+  font-family: sans-serif;
+  margin-top: -3px;
+}
+
+/* ************** */
+
+.a4-box {
+  width: 289px;
+  height: 405px;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 60px;
+  /* border: 1px solid #ff1414;
+  box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445); */
+}
+
+.a4-box:hover {
+  border: 1px solid #ff1414;
+  box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445);
+}
+
+.b4-img {
+  margin-left: 101px;
+  margin-top: 50px;
+}
+
+.b4-text {
+  color: white;
+  margin-left: 12px;
+  margin-top: 120px;
+}
+
+.text-4 {
+  color: gray;
+  margin-left: 64px;
+  font-family: sans-serif;
+  margin-top: -3px;
+}
